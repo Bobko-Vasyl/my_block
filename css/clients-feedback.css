@@ -1,0 +1,102 @@
+/* Vasyl */
+.section-clients-feedback {
+    background-color: #5a3733;
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.feedback {
+    display: block;
+    font-family: Open Sans, sans-serif;
+    color: #f7d832;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    font-stretch: 100%;
+    padding: 10px 25px 10px 25px;
+}
+
+.section-clients-feedback h2 {
+    display: block;
+    font-family: Open Sans, sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 10px 5px 10px 5px;
+}
+
+#strip-for-clients {
+    display: block;
+    width: 60px;
+    border-bottom: 4px #f7d832 solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.small-text  {
+color: white;
+}
+
+.color-white  {
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.date {
+    display: block;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.column-feedback-responce {
+    position: relative;
+    display: block;
+    background-color: #836763;
+    width: 80%;
+    margin: 20px 40px 20px 40px;
+    padding: 15px 15px 15px 15px;
+}
+
+.feedback-text {
+    display: block;
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 28.8px;
+    font-style: italic;
+    color:whitesmoke;
+    text-align: center;
+    margin: 5px 5px 35px 5px;
+}
+
+.statistic .column-statistic {
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 50px 20px 50px 20px;
+}
+
+.statistic .colomn-statistic h3 {
+    font-family: Signika Negative, sans-serif;
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+.statistic .how-many p {
+    font-family: Open Sans, sans-serif;
+    color: #eb6d2f;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.strip-statistic {
+    width: 50px;
+    border-bottom: 4px #663b36 solid;
+    margin: auto;
+    margin-bottom: 20px;
+}
