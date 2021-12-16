@@ -1,1 +1,56 @@
 /* Vasyl */
+
+.clients_feedback_section {
+    background-color: #5a3733;
+}
+
+.clients_feedback_header {
+    text-align: center;
+}
+
+.clients_feedback_header_small {
+    text-align: center;
+    color: #f7d832;
+    height: 50px;
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 60px;
+    overflow-wrap: normal;
+    vertical-align: baseline;
+    margin: 0px;
+    font-family: Open Sans, sans-serif;
+}
+
+.clients_feedback_header_large {
+    text-align: center;
+    color: #ffffff;
+    height: 50px;
+    padding: 20px;
+    font-size: 25px;
+    font-stretch: 100%;
+    font-weight: 700;
+    line-height: 5px;
+}
+
+.clients_feedback_header_line {
+    color: #f7d832;
+    height: 2px;
+    width: 50px;
+    margin-right: center;
+    margin-left: 45%;
+    background-color: #f7d832;
+}
+
+.clients_feedback_header_text {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    font-stretch: 100%;
+    font-weight: 300;
+    line-height: 25px;
+    overflow-wrap: normal;
+    vertical-align: baseline;
+}
