@@ -12,7 +12,7 @@
     text-align: center;
     color: #f7d832;
     height: 50px;
-    font-size: 15px;
+    font-size: 13px;
     font-stretch: 100%;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -47,10 +47,72 @@
     text-align: center;
     color: #ffffff;
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
     font-stretch: 100%;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 25px;
     overflow-wrap: normal;
     vertical-align: baseline;
 }
+
+.clients_feedback_show__card {
+    background-color: #836763;
+}
+
+.client_name {
+    text-align: center;
+    color: #f7d832;
+    height: 50px;
+    font-size: 20px;
+    font-stretch: 100%;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+    margin: 0px;
+    font-family: Open Sans, sans-serif;
+} 
+
+.client_feedback {
+    text-align: center;
+    color: #ffffff;
+    height: auto;
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+    margin: 0px;
+    font-style: italic;
+    }
+
+.date {
+    text-align: center;
+    color: #ffffff;
+    height: auto;
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+    margin: 0px;
+    font-family: Open Sans, sans-serif;
+}
+
+.statistic {
+    background-color: #d1c5c1;
+}
+
+
+
+.strip_statistic {
+    color: #663b36;
+}
+
+
+    
