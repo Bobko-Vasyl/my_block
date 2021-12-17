@@ -100,7 +100,7 @@
     line-height: 40px;
     overflow-wrap: break-word;
     vertical-align: baseline;
-    margin: 0px;
+    margin: 80px;
     font-family: Open Sans, sans-serif;
 }
 #box_container {
@@ -113,7 +113,6 @@
 .how_many {
     color: #eb6d2f;
     font-weight: 700;
-    margin-top: 70px;
     font-size: 23px;
     font-stretch: 100%;
     line-height: 40px;
@@ -140,8 +139,8 @@
 }
 #box__container {
     display: flex;
+   
 }
-
 
 
     
