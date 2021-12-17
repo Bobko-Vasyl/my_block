@@ -138,7 +138,7 @@
     overflow-wrap: break-word;
     vertical-align: baseline;
 }
-#box_statistic {
+#box__container {
     display: flex;
 }
 
