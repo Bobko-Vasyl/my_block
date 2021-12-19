@@ -11,27 +11,19 @@
 .clients_feedback_header_small {
     text-align: center;
     color: #f7d832;
-    height: 50px;
-    font-size: 13px;
-    font-stretch: 100%;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 1.4px;
     line-height: 60px;
-    overflow-wrap: normal;
-    vertical-align: baseline;
-    margin: 0px;
     font-family: Open Sans, sans-serif;
-}
+   }
 
 .clients_feedback_header_large {
     text-align: center;
     color: #ffffff;
-    height: 50px;
-    padding: 20px;
-    font-size: 25px;
-    font-stretch: 100%;
-    font-weight: 700;
-    line-height: 5px;
+    font-size: 50px;
+    margin: auto;
+    font-family: Open Sans, sans-serif;
 }
 
 .clients_feedback_header_line {
@@ -48,50 +40,51 @@
     color: #ffffff;
     padding: 20px;
     font-size: 18px;
-    font-stretch: 100%;
-    font-weight: 400;
-    line-height: 25px;
-    overflow-wrap: normal;
-    vertical-align: baseline;
+    line-height: 23px;
+    margin: auto;
+    overflow-wrap: break-word;
 }
 
 .clients_feedback_show__card {
     background-color: #836763;
+}
+.clients_feedback_show__card {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px !important;
+    height: 150px !important;
 }
 
 .client_name {
     text-align: center;
     color: #f7d832;
     height: 50px;
-    font-size: 20px;
-    font-stretch: 100%;
-    font-weight: 700;
+    font-size: 25px;
     letter-spacing: 1.5px;
     line-height: 20px;
-    overflow-wrap: break-word;
-    vertical-align: baseline;
-    margin: 0px;
+    margin-top: 20px;
     font-family: Open Sans, sans-serif;
 } 
 
 .client_feedback {
     text-align: center;
     color: #ffffff;
-    height: auto;
-    font-size: 15px;
-    font-stretch: 100%;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    line-height: 18px;
-    overflow-wrap: break-word;
-    vertical-align: baseline;
-    margin: 0px;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
     font-style: italic;
     }
 
 .date {
     text-align: center;
     color: #ffffff;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
     height: auto;
     font-size: 15px;
     font-stretch: 100%;
@@ -101,7 +94,6 @@
     overflow-wrap: break-word;
     vertical-align: baseline;
     margin: 80px;
-    font-family: Open Sans, sans-serif;
 }
 #box_container {
     display: flex;
