@@ -3,6 +3,22 @@
 .clients_feedback_section {
     background-color: #5a3733;
 }
+.clients_feedback_show {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+@media screen and (min-width: 680px) {
+.clients_feedback_show  {
+    position: relative;
+    display: flex;
+} 
+}
+.clients {
+    margin: 20px;
+    background-color: #836763;
+}
 
 .clients_feedback_header {
     text-align: center;
@@ -48,7 +64,7 @@
 .clients_feedback_show__card {
     background-color: #836763;
 }
-.clients_feedback_show__card {
+.clients_photo {
     display: flex;
     margin-left: auto;
     margin-right: auto;
