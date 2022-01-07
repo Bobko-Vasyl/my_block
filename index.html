@@ -22,17 +22,8 @@
                 reviews and warm words of appreciation make us better!</p>
         </header>
     </div>
-    <div class="carousel-container">
-        <div class="clients_feedback-carousel"></div>
-        <button class="clients_feedback-carousel__button forward" data-target="#carouselExampleControls">
-            &#10094;
-        </button>
-        <div class="clients_feedback-carousel__slide"></div>
-        <button class="clients_feedback-carousel__button back" data-target="#carouselExampleControls">
-            &#10095;
-        </button>
-    <div class="clients_feedback_show">
-        <!--1 clients-->
+    <!--1 clients-->
+    <div class="clients_feedback_places">
         <div class="clients">
             <img class="clients_photo" src="img/jessica_photo.webp" alt="jessica_photo_review">
             <h3 class="client_name">Jessica Peterson</h3>
@@ -59,8 +50,16 @@
                 buckwheat.Each jar of honey is a real triumph of taste."</p>
             <p class="date">April 18, 2021</p>
         </div>
-<script src="js/carousel-container.js"></script>
-    </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div class="bottom-buttons">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+<script src="js/clients-feedback.js"></script>
 </section>
 <!--info_statistic-->
 <div class="info_statistic">
