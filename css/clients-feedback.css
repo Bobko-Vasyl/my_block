@@ -53,7 +53,7 @@
 }
 
 @media screen and (min-width: 680px) {
-.clients_feedback_show  {
+.clients_feedback_places  {
     position: relative;
     display: flex;
 } 
@@ -62,6 +62,15 @@
 .clients {
     margin: 20px;
     background-color: #663b36;
+}
+
+@media screen and (min-width: 680px) {
+    .clients {
+        max-width: 50%;
+        text-align: center;
+        margin: auto;
+        background-color: #663b36;
+    }
 }
 
 .clients_photo {
@@ -166,4 +175,64 @@
     color: #413939;
     margin: auto;
     margin-bottom: 10px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0,0.8);
+}
+
+.bottom-buttons {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6 ease;
+}
+
+
+.active, .dot:hover {
+    background-color: #ffffff;
+}
+
+.clients {
+    -webkit-animation-name: clients;
+    -webkit-animation-duration: 1.5s;
+    animation-name: clients;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes clients {
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+@keyframes clients {
+    from{opacity: .4;}
+    to{opacity: 1;}
 }
