@@ -7,10 +7,9 @@
     <title>My block</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
 <!-- Vasyl Bobko start -->
-<div class="clients_feedback_section">
-    <div class="Clients_feedback_section_in">
+<section class="clients_feedback">
+    <div class="Clients_feedback_in">
         <header class="clients_feedback_header">
             <div class="clients_feedback_header_in">
                 <span class="clients_feedback_header_small">TESTIMONIALS</span>
@@ -23,6 +22,16 @@
                 reviews and warm words of appreciation make us better!</p>
         </header>
     </div>
+    <div class="carousel-container">
+        <div class="clients_feedback-carousel"></div>
+        <button class="clients_feedback-carousel__button forward" data-target="#carouselExampleControls">
+            &#10094;
+        </button>
+        <div class="clients_feedback-carousel__slide"></div>
+        <button class="clients_feedback-carousel__button forward" data-target="#carouselExampleControls">
+            &#10095;
+        </button>
+    <!--1 clients-->
     <div class="clients_feedback_show">
         <div class="clients">
             <img class="clients_photo" src="img/jessica_photo.webp" alt="jessica_photo_review">
@@ -32,6 +41,7 @@
                 crystallized honey."</p>
             <p class="date">October 28, 2020</p>
         </div>
+        <!--2 clients-->
         <div class="clients">
             <img class="clients_photo" src="img/dean_photo.webp" alt="dean_photo_review">
             <h3 class="client_name">Dean Nillstrom</h3>
@@ -39,8 +49,8 @@
                 honey. I first tried the HoneyBee honey several years ago, and since then I have been a
                 regular customer of this producer."</p>
             <p class="date">February 12, 2021</p>
-
-        </div>
+</div>
+<!--3 clients-->
         <div class="clients">
             <img class="clients_photo" src="img/diana_photo.webp" alt="diana_photo_review">
             <h3 class="client_name">Diana Fergusson</h3>
@@ -49,11 +59,9 @@
                 buckwheat.Each jar of honey is a real triumph of taste."</p>
             <p class="date">April 18, 2021</p>
         </div>
-    </div>
-</div>
 <script src="js/clients-feedback.js"></script>
-</body>
-<body>
+    </div>
+</section>
 <!--info_statistic-->
 <div class="info_statistic">
     <div class="info_element">
@@ -79,5 +87,4 @@
     
 </div>
 <!-- Vasyl Bobko end -->
-    </body>
 </html>
